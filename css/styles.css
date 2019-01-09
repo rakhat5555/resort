@@ -5,12 +5,9 @@ h1,h2 {
 h1,h2,p {
   text-align: center;
 }
-p.example {
-  font-weight: bold;
-  font-style: italic;
-}
-p.intro {
-  color: red
+.column {
+  width:80%;
+  float: left;
 }
 
 p.example2 {
@@ -19,4 +16,24 @@ p.example2 {
 
 .important {
   color: green;
+}
+
+.unimportant {
+  color: pink;
+}
+
+img {
+  float: right;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 2px;
+
+}
+
+.sidebar {
+  float: left;
+  margin: 5px;
+  border: 2px solid orange;
+  padding: 5px;
+  background-color: ivory;
 }
