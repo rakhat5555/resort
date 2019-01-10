@@ -1,17 +1,37 @@
 h1,h2 {
-  color: blue;
+  color: violet;
 }
 
 h1,h2,p {
   text-align: center;
 }
+
+.link a {
+  color: red;
+}
+
 .column {
-  width:80%;
+  width:100%;
   float: left;
+}
+
+.column h3 {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.column .pink {
+  background-color: pink;
+}
+
+.column .grey {
+  background-color: grey;
 }
 
 p.example2 {
   text-decoration: underline;
+  background-color: beige;
 }
 
 .important {
@@ -23,10 +43,19 @@ p.example2 {
 }
 
 img {
+  width: 400px;
+  Height: 300px;
   float: right;
   border: 2px solid black;
   margin: 5px;
   padding: 2px;
+
+}
+.top {
+  margin: 5px;
+  border: 2px solid pink;
+  padding: 5px;
+  background-color: ivory;
 
 }
 
@@ -36,4 +65,11 @@ img {
   border: 2px solid orange;
   padding: 5px;
   background-color: ivory;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
